@@ -8,10 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-ls
-    latest
+    runs-on: ubuntu-latest
     container: python:3.9-slim
-    steps:git 
+    steps:
       - name: Checkout
         uses: actions/checkout@v3
 
